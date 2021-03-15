@@ -66,3 +66,10 @@ def numberOfDeployements():
     print(len(response.json()["Results"])) #=100
 
 
+if __name__ == '__main__':
+    alamDescription()
+    physicalSummaries()
+    complianceHCL()
+    kubernetesClusterNames()
+    numberOfDeployements()
+
